@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+        <typeAliases>
+		<typeAlias alias="BranchDto" type="com.korea.futsal.vo.BranchDto"></typeAlias>
+		<typeAlias alias="GroundDto" type="com.korea.futsal.vo.GroundDto"></typeAlias>
+		<typeAlias alias="MemberDto" type="com.korea.futsal.vo.MemberDto"></typeAlias>
+		<typeAlias alias="TeamBoardListDto" type="com.korea.futsal.vo.TeamBoardListDto"></typeAlias>
+		<typeAlias alias="NoticeboardDto" type="com.korea.futsal.vo.NoticeboardDto"></typeAlias>
+		<!-- <typeAlias alias="QnaDto" type="com.korea.futsal.vo.QnaDto"></typeAlias>
+		<typeAlias alias="YonglistDto" type="com.korea.futsal.vo.YonglistDto"></typeAlias>
+		<typeAlias alias="MatchlistDto" type="com.korea.futsal.vo.MatchlistDto"></typeAlias>-->
+		<!-- <typeAlias alias="Pagination" type="com.korea.futsal.vo.Pagination"></typeAlias>-->
+		<!-- <typeAlias alias="PageInfo" type="com.korea.futsal.vo.PageInfo"></typeAlias> -->
+		<typeAlias alias="TeamPageDto" type="com.korea.futsal.vo.TeamPageDto"></typeAlias>
+		<!--
+		<typeAlias alias="ReservationDto" type="com.korea.futsal.vo.ReservationDto"></typeAlias>-->
+		<typeAlias alias="TeamDto" type="com.korea.futsal.vo.TeamDto"></typeAlias>
+		<!-- <typeAlias alias="TeamBoardRepDto" type="com.korea.futsal.vo.TeamBoardRepDto"></typeAlias> -->
+		<!--<typeAlias alias="LeagueResultDto" type="com.korea.futsal.vo.LeagueResultDto"></typeAlias>
+		<typeAlias alias="PlayerRegistDto" type="com.korea.futsal.vo.PlayerRegistDto"></typeAlias>
+		<typeAlias alias="LeagueDto" type="com.korea.futsal.vo.LeagueDto"></typeAlias>
+		<typeAlias alias="AdminDto" type="com.korea.futsal.vo.AdminDto"></typeAlias>
+		<typeAlias alias="AdminBranchRepDto" type="com.korea.futsal.vo.AdminBranchRepDto"></typeAlias>
+		<typeAlias alias="ComResInfoDto" type="com.korea.futsal.vo.ComResInfoDto"></typeAlias>
+		<typeAlias alias="LeagueandLeagueResultDto" type="com.korea.futsal.vo.LeagueandLeagueResultDto"></typeAlias> -->
+        </typeAliases> 
+
+        <mappers>
+               <mapper resource="mybatis/mapper/mapper.xml"/>
+        </mappers>
+        
+</configuration>
